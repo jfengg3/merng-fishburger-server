@@ -1,7 +1,6 @@
 {
   "name": "fishburger",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "node index",
@@ -13,11 +12,21 @@
   "dependencies": {
     "apollo-server": "^3.3.0",
     "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
     "graphql": "^15.5.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfengg3/merng-fishburger-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jfengg3/merng-fishburger-server/issues"
+  },
+  "homepage": "https://github.com/jfengg3/merng-fishburger-server#readme",
+  "description": ""
 }
